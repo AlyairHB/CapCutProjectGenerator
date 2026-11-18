@@ -1,0 +1,3 @@
+cd /d "C:\ruta\a\tus\videos"
+for %f in (*.webm) do ffmpeg -y -i "%f" -c copy "%~nf_fix.webm"cd /d "C:\ruta\a\tus\videos"
+for %f in (*.webm) do ffmpeg -y -i "%f" -c copy "%~nf_fix.webm"
